@@ -215,7 +215,7 @@ def iothub_client_sample_run():
                 msg_txt_formatted = MSG_TXT % (
                     "Yes",
                     time.asctime(),
-		    "On")	
+		    "On" if not onOrOff else "Off")	
                 print (msg_txt_formatted)
                 message = IoTHubMessage(msg_txt_formatted)
                 # optional: assign ids
