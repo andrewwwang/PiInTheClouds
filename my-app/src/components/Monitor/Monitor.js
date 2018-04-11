@@ -6,7 +6,7 @@ class Monitor extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      connectionString: props.location.query.debug === "true" ? "HostName=iot-hub-hendry.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=FE98m4TB4e5J/RzCpgtMV8+WXiXuZeRnBN8WzlaZTJQ=" : "",
+      connectionString: "HostName=PiClouds.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=K3PDPENckRvV8vzXpxDaEZM+kwKelAGT5mwsYqYVlyU=",
       consumerGroup: "$Default",
      
       phoneNumber: "4255907387",
